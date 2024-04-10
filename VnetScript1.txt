@@ -42,5 +42,5 @@ for ($i = 1; $i -le $numVirtualNetworks; $i++) {
     # Apply changes to the virtual network
     $vnet | Set-AzVirtualNetwork
 
-    Write-Host "Virtual network $vnetName created successfully."
+   
 }
